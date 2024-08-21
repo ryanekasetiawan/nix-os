@@ -34,6 +34,7 @@
       "ms-vscode.vscode-typescript-next"
       "rangav.vscode-thunder-client"
       "Zignd.html-css-class-completion"
+      "zhuangtongfa.material-theme"
     ];
     # Enable previews
     previews = {
