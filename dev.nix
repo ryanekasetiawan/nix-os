@@ -49,6 +49,9 @@
       "ritwickdey.LiveServer"
       "sleistner.vscode-fileutils"
       "vincaslt.highlight-matching-tag"
+      "FallenMax.mithril-emmet"
+      "burkeholland.simple-react-snippets"
+      "SimonSiefke.svg-preview"
     ];
     # Enable previews
     previews = {
