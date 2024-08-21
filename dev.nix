@@ -3,6 +3,10 @@
 { pkgs, ... }: {
   # Which nixpkgs channel to use.
   channel = "stable-23.11"; # or "unstable"
+  # networking.firewall = {
+  #   enable = true;
+  #   allowed = [ 22 80 443 3000 ];
+  # };
   # Use https://search.nixos.org/packages to find packages
   packages = [
     # pkgs.go
@@ -11,6 +15,7 @@
     pkgs.nodejs_20
     # pkgs.nodePackages.nodemon
     pkgs.openssh
+    pkgs.unzip
   ];
   # Sets environment variables in the workspace
   env = {};
@@ -34,7 +39,16 @@
       "ms-vscode.vscode-typescript-next"
       "rangav.vscode-thunder-client"
       "Zignd.html-css-class-completion"
+      "jock.svg"
+      "PKief.material-icon-theme"
       "zhuangtongfa.material-theme"
+      "deerawan.vscode-faker"
+      "eamodio.gitlens"
+      "formulahendry.auto-close-tag"
+      "glenn2223.live-sass"
+      "ritwickdey.LiveServer"
+      "sleistner.vscode-fileutils"
+      "vincaslt.highlight-matching-tag"
     ];
     # Enable previews
     previews = {
