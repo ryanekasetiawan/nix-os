@@ -23,9 +23,10 @@
     # Search for the extensions you want on https://open-vsx.org/ and use "publisher.id"
     extensions = [
       # "vscodevim.vim"
+      # "Codeium.codeium"
+      "sourcegraph.cody-ai"
       "anseki.vscode-color"
       "christian-kohler.path-intellisense"
-      "Codeium.codeium"
       "dbaeumer.vscode-eslint"
       "dsznajder.es7-react-js-snippets"
       "esbenp.prettier-vscode"
@@ -52,6 +53,9 @@
       "FallenMax.mithril-emmet"
       "burkeholland.simple-react-snippets"
       "SimonSiefke.svg-preview"
+      "GitHub.vscode-pull-request-github"
+      "ms-python.debugpy"
+      "ms-python.python"
     ];
     # Enable previews
     previews = {
